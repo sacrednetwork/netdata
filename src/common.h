@@ -65,6 +65,10 @@
 #include <unistd.h>
 #include <uuid/uuid.h>
 
+/*
+#include <mntent.h>
+*/
+
 #ifdef STORAGE_WITH_MATH
 #include <math.h>
 #endif
@@ -124,6 +128,9 @@
 #include "daemon.h"
 #include "main.h"
 #include "unit_test.h"
+
+#include "ipc.h"
+#include "backends.h"
 
 #ifdef abs
 #undef abs

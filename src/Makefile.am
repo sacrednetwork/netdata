@@ -29,12 +29,14 @@ plugins_PROGRAMS = apps.plugin
 netdata_SOURCES = \
 	appconfig.c appconfig.h \
 	avl.c avl.h \
+	backends.c backends.h \
 	common.c common.h \
 	daemon.c daemon.h \
 	dictionary.c dictionary.h \
 	eval.c eval.h \
 	global_statistics.c global_statistics.h \
 	health.c health.h \
+	ipc.c ipc.h \
 	log.c log.h \
 	main.c main.h \
 	plugin_checks.c plugin_checks.h \
